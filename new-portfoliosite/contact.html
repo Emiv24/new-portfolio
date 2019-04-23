@@ -42,22 +42,33 @@
     </header>
 
 
-
     <div id="main-container" class="container">
-        <section class="main-section">
-          <h1>About Me</h1>
-    
-          <img src="emi.jpg" class="auth-image" alt="Emiliano Volpe">
-    
-          <p>Hi my name is Emiliano Volpe and I'm a student at the KU Edwards Campus attending the Coding BootCamp to become a full stack web developer.</p>
-    
-          <p>I'm currently working full time as package handler at UPS and I'm attending the Coding BootCamp for a career change.</p>
-    
-          <p></p>
-    
-        </section>
-    
-      </div>
+      <section class="main-section">
+        <h1>Contact</h1>
+  
+        <form id="contact-form">
+          <ul>
+            <li>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+            </li>
+            <li>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required="required"></textarea>
+            </li>
+          </ul>
+          <input type="submit">
+        </form>
+  
+      </section>
+  
+    </div>
+  
+
 
 
 
